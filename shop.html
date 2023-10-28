@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Productpage</title>
+
+    <!-- Add your CSS stylesheets here -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- Add any additional meta tags or external resources you need -->
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="cart.html">mycart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="products" class="section-p1">
+        <div class="pro-container">
+            <!-- Product 1 -->
+            <div class="pro">
+                <img src="img/product/f3.jpg" alt="">
+                <div class="des">
+                    <span>IndoPrimo</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <p>Discover the universe with our Cartoon Astronaut T-Shirts. Perfect for space lovers and aspiring astronauts.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$60</h4>
+                    <a href="#" class="cart-icon" data-name="Fashion Hoodie" data-price="60" data-image="img/product/f3.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 2 -->
+            <div class="pro">
+                <img src="img/product/f2.jpg" alt="">
+                <div class="des">
+                    <span>Leriya Fashion</span>
+                    <h5>Casual Sports Shoes</h5>
+                    <p>Step up your style with our Casual Sports Shoes, designed for both comfort and fashion-forward individuals.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$90</h4>
+                    <a href="#" class="cart-icon" data-name="Casual Sports Shoes" data-price="90" data-image="img/product/f2.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 3 -->
+            <div class="pro">
+                <img src="img/product/f1.jpg" alt="">
+                <div class="des">
+                    <span>Allan Solly</span>
+                    <h5>Classic Astronaut T-Shirts</h5>
+                    <p>Experience style and comfort with our Classic Astronaut T-Shirts. A must-have for your wardrobe.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$75</h4>
+                    <a href="#" class="cart-icon" data-name="Classic Astronaut T-Shirts" data-price="75" data-image="img/product/f1.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 4 -->
+            <div class="pro">
+                <img src="img/product/f4.jpg" alt="">
+                <div class="des">
+                    <span>Jeff Eric</span>
+                    <h5>Sporty Jacket</h5>
+                    <p>Stay active and stylish with our Sporty Jacket, perfect for workouts and casual wear.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$80</h4>
+                    <a href="#" class="cart-icon" data-name="Sporty Jacket" data-price="80" data-image="img/product/f4.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 5 -->
+            <div class="pro">
+                <img src="img/product/f5.jpg" alt="">
+                <div class="des">
+                    <span>Lymio</span>
+                    <h5>Sporty Sneakers</h5>
+                    <p>Elevate your footwear game with our Sporty Sneakers, a blend of style and comfort for active individuals.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70</h4>
+                    <a href="#" class="cart-icon" data-name="Sporty Sneakers" data-price="70" data-image="img/product/f5.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 6 -->
+            <div class="pro">
+                <img src="img/product/f6.jpg" alt="">
+                <div class="des">
+                    <span>Majestic Man</span>
+                    <h5>Fitness Leggings</h5>
+                    <p>Maximize your workout potential with our Fitness Leggings, designed for flexibility and performance.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$55</h4>
+                    <a href="#" class="cart-icon" data-name="Fitness Leggings" data-price="55" data-image="img/product/f6.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 7 -->
+            <div class="pro">
+                <img src="img/product/f7.jpg" alt="">
+                <div class="des">
+                    <span>Nimble</span>
+                    <h5>Sports Shorts</h5>
+                    <p>Stay comfortable and active with our Sports Shorts, ideal for sports, workouts, and casual wear.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40</h4>
+                    <a href="#" class="cart-icon" data-name="Sports Shorts" data-price="40" data-image="img/product/f7.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+            <!-- Product 8 -->
+            <div class="pro">
+                <img src="img/product/f8.jpg" alt="">
+                <div class="des">
+                    <span>India Mart</span>
+                    <h5>Stylish Top</h5>
+                    <p>Elevate your wardrobe with our Stylish Top, perfect for casual outings and everyday fashion.</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$70</h4>
+                    <a href="#" class="cart-icon" data-name="Stylish Top" data-price="70" data-image="img/product/f8.jpg" onclick="addToCart(this)"><i class="fas fa-cart-plus"></i> Add to Cart</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
